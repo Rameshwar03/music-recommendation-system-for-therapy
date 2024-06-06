@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Raga Therapy",
+    "slug": "raga-therapy",
+    "description": "Music Therapy App for Diabetes, Blood Pressure and Hypertension",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "togettherapy.ragatherapy",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1aa6ee73-3372-4770-a4d6-78441f5c5397"
+      }
+    }
+  }
+}
